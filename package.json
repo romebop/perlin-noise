@@ -3,11 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://romebop.io/perlin-noise",
+  "homepage": "https://perlin-noise.romebop.io",
   "scripts": {
     "dev": "vite",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "echo perlin-noise.romebop.io > ./dist/CNAME && gh-pages -d dist",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
